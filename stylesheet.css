@@ -5,9 +5,7 @@
    
     
 }
-h1{
-padding-left: 2%;
-}
+
 .main{
  margin:auto;
 
@@ -15,6 +13,9 @@ padding-left: 2%;
 }
 *{
     margin: 0;
+}
+.section{
+    background-color: aliceblue;
 }
 ul.navlist > li {
 display: inline-block;
@@ -30,21 +31,30 @@ text-align: center;
 .main,html{
     height: 100%;
 }
+.google{
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: cadetblue;
+    margin: 1% 2%;
+    border-radius: 1%;
+}
 .bg{
     
 background-color: #e6f054;
 
     height: 100%;
     width: 100%;
-    background-position: center;
+    
     align-items: center;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     
 }
 .flexbox {
     
-    background-color: antiquewhite;
+    border: solid yellow 3px;
+    border-radius: 2%;
     width: 65%;
     
     display: flex;
@@ -67,7 +77,7 @@ background-color: #e6f054;
     
     /*padding: 10% 0% 10% 0%;*/
     font-family: cursive;
-    font-size: 145%;
+    font-size: 120%;
 }
 .boxone{
     
@@ -77,7 +87,7 @@ background-color: #e6f054;
     
     /*padding: 10% 0% 10% 0%;*/
     font-family: cursive;
-    font-size: 146%;
+    font-size: 118%;
 }
 .boxtwo{
    
@@ -87,5 +97,5 @@ background-color: #e6f054;
     
     /*padding: 10% 0% 10% 0%;*/
     font-family: cursive;
-    font-size: 160%;
+    font-size: 125%;
 }
