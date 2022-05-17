@@ -1,0 +1,43 @@
+.head{
+    border:solid  1px;
+    
+    background-color: aqua;
+   
+    
+}
+h1{
+padding-left: 2%;
+}
+.main{
+ margin:auto;
+
+
+}
+*{
+    margin: 0;
+}
+ul.navlist > li {
+display: inline-block;
+padding: 20px 11% 2px 2px;
+}
+ul.navlist{
+   
+padding-left: 0px;
+background-color: #5aafec;
+text-align: center;
+
+}
+.main,html{
+    height: 100%;
+}
+.bg{
+    
+background-color: #e6f054;
+
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    
+}
+
+
